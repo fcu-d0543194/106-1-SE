@@ -1,6 +1,7 @@
 package se;
 
 import java.util.Scanner;
+import java.util.Date;
 
 public class Main {
 
@@ -35,8 +36,16 @@ public class Main {
     case 3:
       break;
     case 4:
+      beautifull beautiful = new beautifull();
+      beautiful.beautifula(null);
       break;
     case 5:
+      System.out.println("開始時間:" + new java.util.Date());
+      restroomQ rest = new restroomQ(1);
+      rest.start();
+      
+      
+      
       break;
     default:
       chooseList();
