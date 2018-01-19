@@ -34,6 +34,8 @@ public class Main {
     case 2:
       break;
     case 3:
+      clock clocka = new clock();
+      clocka.clockk();
       break;
     case 4:
       beautifull beautiful = new beautifull();
